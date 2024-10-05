@@ -26,6 +26,7 @@ VALIDATE(){
         echo -e "Installing $2 ... $R Failure $N"
     else
         echo -e "Installing $2 ... $G Success $N"
+    fi    
 }
 
 #all args are in $@
