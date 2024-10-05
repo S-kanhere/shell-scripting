@@ -51,4 +51,4 @@ done
 #implement validations
 #implement validations through functions
 #Your script should check if the package is installed or not, if already installed print in yellow color
-#if installed just print package is already installed, it should not run install command 
+#if installed just print package is already installed, it should not run install command         
