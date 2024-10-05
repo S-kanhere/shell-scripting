@@ -38,6 +38,7 @@ do
     then
         echo "$i is not installed, let's install it"
         apt install $i -y &>>$LOGFILE
+        VALIDATE $? "$i"
     else
         echo -e "$Y $i is already installed $N" 
     fi
